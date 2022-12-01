@@ -1,0 +1,17 @@
+{
+  "id": "6a47a867-09d4-41af-8bb1-a82d1cab5dcb",
+  "version": "2.0",
+  "name": "Flask-App",
+  "url": "http://127.0.0.1:5000",
+  "tests": [],
+  "suites": [{
+    "id": "14cb39f2-2fd2-4efd-8360-0633e84d26bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5000/"],
+  "plugins": []
+}

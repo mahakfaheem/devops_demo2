@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '2a424ddd-114f-4be0-bfcf-96a8975b945e', url: 'https://github.com/Pranjali693/Devopsdemoapp.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '527b5a88-4af3-4b21-90a9-5e79da531659', url: 'https://github.com/mahakfaheem/devops_demo2.git']]])
             }
         }
         stage('Build') {

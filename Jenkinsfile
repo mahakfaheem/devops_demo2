@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                bat 'python -m pytest'
             }
         }
         stage('Deploy') {

@@ -9,8 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Building the app..'
-                echo 'Capstone App built!'
+                sh 'python ops.py'
             }
         }
         stage('Test') {

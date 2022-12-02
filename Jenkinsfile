@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'python ops.py'
+                bat 'python ops.py'
             }
         }
         stage('Test') {
